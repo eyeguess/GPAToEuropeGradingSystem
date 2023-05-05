@@ -32,8 +32,8 @@ while (y)
 
                             if (a <= 10 && a >= 4)
                             {
-                                double gradeGtoE = (4*a-16) / 6;
-                                Console.WriteLine("The result is {0}", gradeGtoE);
+                                double gradeEtoG = (4*a-16) / 6;
+                                Console.WriteLine("The result is {0}", gradeEtoG);
                                 z = false;
                             }
                             else
@@ -51,8 +51,8 @@ while (y)
 
                             if (a >= 0 && a <= 4)
                             {
-                                double gradeEtoG = (1.5*a)+4;
-                                Console.WriteLine("The result is {0}", gradeEtoG);
+                                double gradeGtoE= (1.5*a)+4;
+                                Console.WriteLine("The result is {0}", gradeGtoE);
                                 z = false;
                             }
                             else
